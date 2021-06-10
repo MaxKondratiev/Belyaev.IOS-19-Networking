@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         networkManager.getAllPosts { (posts) in
             DispatchQueue.main.async {
-                self.titleLabel.text = "postsss done"
+                self.titleLabel.text = "postsss done!"
             }
         }
     }
